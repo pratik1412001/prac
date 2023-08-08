@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/new/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/new/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../fonts/new1/Cabin-Regular.woff2') format('woff2'),
+        url('../fonts/new1/Cabin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../fonts/new2/Cabin-Bold.woff2') format('woff2'),
+        url('../fonts/new2/Cabin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/new3/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/new3/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/new4/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/new4/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/new5/Lato-Light.woff2') format('woff2'),
+        url('../fonts/new5/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #9b9a95;
+    padding-bottom: 150px;
+}
+.logos {
+    padding-top: 50px;
+}
+
+nav {
+    float: right;
+    margin-right: -35px;
+}
+ nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.content h3 {
+    font-size: 52px;
+    color: white;
+    line-height: 50px;
+    font-family: 'Cabin';
+}
+.content p {
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+    width: 57%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Lato';
+}
+.content button {
+    background-color: #4ecb8c;
+    color: white;
+    font-weight: bold;
+    padding: 18px 15px 18px 15px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Lato';
+}
+/* header end */
+
+
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main_one {
+    padding-top: 100px;
+    padding-bottom: 66px;
+}
+
+.main_one h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cabin';
+}
+.main_two {
+    text-align: center;
+}
+
+.section {
+    float: left;
+    width: 30%;
+    border: 2px solid #f2f2f2;
+    margin-right: 22px;
+}
+
+.section img{
+    margin-top: -35px;
+}
+
+.section h4{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Cabin';
+}
+
+.section p {
+    padding: 13px 13px 15px 11px;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+.main_three{
+    text-align: center ;
+    padding-top: 50px;
+}
+.main_three h1 {
+    padding-bottom: 50px;
+    font-family: 'Cabin';
+}
+.main_three_content {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.main_three_section {
+    float: left;
+    width: 29%;
+    margin-right: 41px;
+}
+
+.main_three_section img{
+    max-width: 262px;
+}
+
+.main_three_section h5 {
+    font-size: 19px;
+    padding: 10px 0 10px 0;
+    font-family: 'Lato';
+    text-align: initial;
+    margin-left: 20px;
+}
+.main_three_section p {
+    padding-top: 18px;
+    font-size: 15px;
+    font-family: 'Lato';
+    text-align: initial;
+    margin-left: 20px;
+}
+span {
+    color: #b5b5b5;
+    font-family: 'Cabin';
+   
+   
+}
+.fa{
+    color: #b5b5b5;
+}
+
+/* main end */
+
+.footer {
+    background-color: #36c36e;
+    padding: 35px 0px 35px 0px;
+}
+
+.footer_one h6 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Cabin';
+}
+.footer_one p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Cabin';
+}
+
+.footer_one button {
+    float: right;
+    margin-top: -38px;
+    background: transparent;
+    color: white;
+    padding: 14px 13px 14px 13px;
+    border: 2px solid;
+    font-family: 'Cabin';
+    margin-right: 38px;
+}
+
+.footer_section h6 {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 18px;
+    font-family: 'Lato';
+}
+
+.footer_section p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Lato';
+    
+}
+.footer_two{
+    background-color: black;
+    padding: 50px 0 50px 0;
+}
+
+.footer_section {
+    float: left;
+    width: 21%;
+    margin-right: 38px;
+}
+
+p.p {
+    padding-top: 30px;
+    font-family: 'Lato';
+}
+
+.footer_section img{
+    margin-top: 21px;
+}
